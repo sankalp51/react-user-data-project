@@ -1,0 +1,20 @@
+.items {
+  padding: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.add-user {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
